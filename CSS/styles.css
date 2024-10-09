@@ -1,0 +1,359 @@
+/*Color Scheme
+Black rgb(36,36,36)
+Blue 003B5C
+light blue rgb(6,162,171)
+Light Brown #a9927d
+White #ffffff
+*/
+
+/* Fonts 
+Poppins
+
+.noto-sans-cherokee- {
+  font-family: "Noto Sans Cherokee", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+Hand Guides- Writing Lines
+.edu-au-vic-wa-nt-guides-Heading {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+/*Classes and ID List */
+
+/*Headings font */
+.blue {
+  color: rgb(6, 162, 171);
+}
+
+.center-heading {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+.column-container {
+  border: 1px dashed rgba(36, 36, 36, 0.4);
+  border-radius: 2px;
+  background-color: rgba(36, 36, 36, 0.5);
+  margin: 100px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+/* Contact page GRID */
+.contact {
+  font-size: 18px;
+  display: block;
+  text-align: center;
+}
+
+.contact a {
+  color: #003b5c;
+  font-size: 24px;
+}
+.contact a:hover {
+  color: #a9927d;
+}
+.edu-au-vic-wa-nt-guides-heading {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* */
+
+/* FORM STYLING */
+
+.form-button {
+  background-color: #003b5c;
+  color: #ffffff;
+  border: 1px solid #003b5c;
+  border-radius: 2px;
+  padding: 12px 20px;
+  margin: 10px;
+  font-size: 18px;
+}
+.form-button:hover {
+  background-color: rgb(6, 162, 171);
+  color: #003b5c;
+  border: 1px solid rgb(6, 162, 171);
+}
+.form-container {
+  background-color: rgb(36, 36, 36, 0.7);
+  margin: 20px 200px;
+  padding: 50px;
+  border: 1px solid rgb(36, 36, 36, 0.5);
+  border-radius: 4px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.form-item {
+  flex-direction: column;
+  order: 1;
+  flex-grow: 3;
+}
+
+/* HOME RESOURCE PAGE GRID STYLING */
+.home-container {
+  border: 1px dashed rgba(36, 36, 36, 0.4);
+  border-radius: 2px;
+  background-color: rgba(36, 36, 36, 0.5);
+  margin: 100px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+.home-item-one {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  margin: 10px;
+}
+.home-item-two {
+  grid-column: 1/4;
+  grid-row: 3/3;
+}
+.home-item-three {
+  grid-column: 2 / 4;
+  grid-row: 3/ 3;
+}
+
+.img-wrap {
+  background-color: rgba(0, 59, 92, 0.7);
+  border: 1px solid rgba(0, 59, 92, 0.7);
+  border-radius: 2px;
+}
+.main-container {
+  border: 1px dashed rgba(36, 36, 36, 0.4);
+  border-radius: 2px;
+  background-color: rgba(36, 36, 36, 0.5);
+  margin: 20px 200px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.main-item {
+  flex-wrap: wrap;
+}
+
+/* NAVIGATION STYLING */
+.navigation {
+  background-color: rgb(36, 36, 36);
+  font-size: 22px;
+}
+
+.nav-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  padding: 50px;
+  margin-top: 0px;
+}
+
+.tresource-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.tresource-item {
+  border: 1px dashed rgba(36, 36, 36, 0.4);
+  border-radius: 2px;
+  background-color: rgba(36, 36, 36, 0.5);
+  justify-content: space-evenly;
+  flex-grow: 2;
+  margin: 20px;
+  padding: 20px;
+}
+
+.white-black {
+  background-color: #ffffff;
+  color: #003b5c;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin: 5px 40px;
+}
+.writing-samples {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#librarian-photo {
+  margin: 0 auto;
+  display: block;
+  border-radius: 1px;
+}
+
+/* Float ID applied to footer */
+#float-right {
+  float: right;
+}
+#texas {
+  background-image: url("/images/Texas-sign.jpeg");
+  height: 110px;
+  background-repeat: repeat;
+  background-size: auto;
+  padding-top: 2px;
+  opacity: 0.6;
+  margin-bottom: 70px;
+}
+
+/* Body font */
+.noto-sans-cherokee-regular {
+  font-family: "Noto Sans Cherokee", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.text-center {
+  text-align: center;
+}
+/*End Class & ID List */
+
+/* main body content */
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+body {
+  background: rgba(0, 59, 92, 1);
+  background: linear-gradient(
+    225deg,
+    rgba(0, 59, 92, 1),
+    rgba(255, 255, 255, 1)
+  );
+}
+
+footer {
+  background-color: rgb(36, 36, 36);
+  color: #003b5c;
+  padding: 20px;
+}
+footer a {
+  color: #003b5c;
+}
+footer a:hover {
+  color: #a9927d;
+  text-transform: scale(1.2);
+}
+
+footer a:visited {
+  color: rgb(6, 162, 171);
+}
+
+h1 {
+  font-size: 44px;
+  color: #ffffff;
+}
+img {
+  border-radius: 2px;
+  padding: 4px;
+  margin: 4px;
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+main ul a:hover {
+  color: #a9927d;
+}
+main a:visited {
+  color: rgb(6, 162, 171);
+}
+
+nav a {
+  background-color: #ffffff;
+  padding: 15px 24px;
+  margin: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  color: black;
+}
+
+nav a:hover {
+  background-color: rgb(6, 162, 171);
+  border: 1px solid rgb(6, 162, 171);
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1153px) {
+  .form-container {
+    flex-flow: column wrap;
+    width: 80%;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+  .home-container {
+    display: block;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+
+  .nav-container {
+    flex-flow: column wrap;
+  }
+
+  .nav-item {
+    margin: 12px;
+  }
+  .main-container {
+    flex-flow: column wrap;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .main-item {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .tresource-container {
+    flex-flow: column wrap;
+  }
+  .tresource-item {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  nav a {
+    font-size: 18px;
+    padding: 8px 14px;
+  }
+  video {
+    width: 80%;
+  }
+  .white-black {
+    font-size: 16px;
+  }
+  .writing-samples {
+    display: flex;
+    flex-flow: column;
+  }
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--char encoding-->
+    <meta charset="UTF-8" />
+    <!--page description and content info for accessibility-->
+    <meta
+      name="description"
+      content="Contact page for the creator of this page"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Noto+Sans+Cherokee:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Contact Us- 2nd Grade ELAR Resource</title>
+  </head>
+  <style>
+    .form-container {
+      margin: 20px 250px;
+      background-color: rgba(0, 59, 92, 0.7);
+    }
+    .main-container {
+      margin: 20px 250px;
+    }
+    img {
+      width: 500px;
+      border-radius: 2px;
+      border: 5px dashed rgb(0, 59, 92);
+    }
+
+    h2 {
+      font-size: 30px;
+      color: #a9927d;
+    }
+    @media (max-width: 1160px) {
+      img {
+        margin: 0 auto;
+        width: 80%;
+      }
+      .main-container {
+        margin: 0 auto;
+      }
+      .form-container {
+        margin: 0 auto;
+      }
+    }
+  </style>
+  <body>
+    <!-- - - - - HEADER AND NAV - - - -->
+    <header>
+      <nav role="navigation" aria-label="navigation buttons" class="navigation">
+        <ul class="nav-container noto-sans-cherokee-regular">
+          <li class="nav-item"><a href="./index.html">Home</a></li>
+          <li class="nav-item">
+            <a href="./teacher-resources.html">Teacher Resources</a>
+          </li>
+          <li class="nav-item">
+            <a href="./home-resources.html">At Home Resources</a>
+          </li>
+          <li class="nav-item">
+            <a href="./grade-level-info.html">TEKS and Expectations</a>
+          </li>
+          <li class="nav-item"><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- - - - MAIN CONTENT - - - -->
+    <main class="noto-sans-cherokee-regular">
+      <img src="./images/four-kids-reading.jpeg" alt="four kids reading" />
+      <h1 class="edu-au-vic-wa-nt-guides-heading">Contact Us</h1>
+      <div class="main-container contact">
+        <ul>
+          <li>
+            <a href="mailto:parkera@georgetownisd.org">Audrey Parker</a>
+            Website creator and 2nd grade teacher at Wolf Ranch Elementary
+          </li>
+          <li>
+            <a href="mailto:donnellj@georgetownisd.org">Jacob Donnell </a>
+            Principal at Wolf Ranch Elementary
+          </li>
+          <li>
+            <a href="mailto:pirklen@georgetownisd.org">Nicolette Pirkle</a>
+            Assistant Principal at Wolf Ranch Elementary
+          </li>
+        </ul>
+      </div>
+      <h2>Have a question or suggestion?</h2>
+      <p>Fill out the form below</p>
+      <div class="form-container">
+        <form action="/contact-us.html" method="get">
+          <label class="form-item" for="Name">
+            Your name- first and last
+          </label>
+          <br />
+          <input type="text" id="name" />
+          <br />
+          <label class="form-item" for="email">Email </label>
+          <br />
+          <input type="email" id="email" /> <br />
+          <label class="form-item" for="phone"> Phone Number </label><br />
+          <input type="tel" id="phone" /><br />
+          <label class="form-item" for="pref-contact">Preferred contact: </label
+          ><br />
+          <label class="form-item" for="pref-contact-phone"> Phone </label>
+          <input type="radio" name="pref-contact" id="pref-contact-phone" />
+          <label class="form-item" for="pref-contact-email"> Email </label>
+          <input
+            type="radio"
+            name="pref-contact"
+            id="pref-contact-email"
+          /><br />
+          <label for="question-suggestion">Question or suggestion:</label>
+          <br />
+          <textarea
+            name="question-suggestion"
+            id="question-suggestion"
+            rows="6"
+            cols="30"
+          ></textarea>
+          <br />
+          <input class="form-item form-button" type="submit" />
+        </form>
+      </div>
+    </main>
+    <!-- - - - FOOTER - - -  -->
+    <footer class="noto-sans-cherokee-regular">
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/audrey-parker-iseral/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://audreyparker.netlify.app/" target="_blank"
+            >Visit my Website</a
+          >
+        </li>
+        <li id="float-right">
+          This website was built by<a
+            href="mailto:ajparker1@mymail.tstc.edu"
+            class="float_R"
+          >
+            Audrey Parker 2024 &copy;
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
