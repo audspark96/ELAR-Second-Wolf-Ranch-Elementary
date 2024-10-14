@@ -6,7 +6,7 @@
     <!--page description and content info for accessibility-->
     <meta
       name="description"
-      content="teacher resources for second grade TEKS"
+      content="listed items to look for from your students"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/styles.css" />
@@ -22,198 +22,282 @@
       href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Noto+Sans+Cherokee:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/121e75421a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
-    <title>Teacher Resources</title>
+    <title>Essential Standards</title>
   </head>
   <body>
     <!-- - - - - HEADER AND NAV - - - -->
     <header>
-      <nav role="navigation" aria-label="navigation buttons" class="navigation">
-        <ul class="nav-container noto-sans-cherokee-regular">
-          <li class="nav-item"><a href="./index.html">Home</a></li>
-          <li class="nav-item">
-            <a href="./teacher-resources.html">Teacher Resources</a>
-          </li>
-          <li class="nav-item">
-            <a href="./home-resources.html">At Home Resources</a>
-          </li>
-          <li class="nav-item">
-            <a href="./grade-level-info.html">TEKS and Expectations</a>
-          </li>
-          <li class="nav-item"><a href="./contact-us.html">Contact Us</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./images/WRES-4Children-06.png"
+              alt="Logo"
+              width="100"
+              height="100"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <button
+                  class="btn btn-dark dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Navigation
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li>
+                    <a class="dropdown-item" href="./teacher-resources.html"
+                      >Essential TEKS</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./home-resources.html"
+                      >Home Resources</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./grade-level-info.html"
+                      >Grade Level Info</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./FAQS.html">FAQ's </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./contact-us.html"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <!-- - - - MAIN CONTENT - - - -->
-    <h1 class="edu-au-vic-wa-nt-guides-heading text-center">
-      Teacher Resources
+    <h1 class="edu-au-vic-wa-nt-guides-heading text-center text-light m-4 p-4">
+      Essential Standards Explained
     </h1>
     <main class="noto-sans-cherokee-regular">
-      <div class="tresource-container">
-        <div class="tresource-item">
-          <h2 class="edu-au-vic-wa-nt-guides-heading">Phonics</h2>
-          <img src="./images/phonics-card.jpeg" alt="phonics vowel cards" />
-          <p>
-            Phonics is a method of teaching students how to read by correlating
-            phoneme and graphemes. Having a strong education in phonics is
-            foundational to a students future. Without phonics, students will
-            struggle to decode and encode words.
-          </p>
-          <ul>
-            <li>
-              <a href="https://ufli.education.ufl.edu/resources/#hubs"
-                >UFLI Foundations</a
-              >- This program is explicit and systematic in its delivery. It has
-              proven results to improve students reading and writing skills by
-              intertwining reading and writing instruction. Click
-              <a href="https://www.youtube.com/watch?v=AtUtgslpGVM">here.</a> to
-              watch a sample lesson
-            </li>
-            <br />
-            <li>
-              <a
-                href="https://www.education.com/resources/phonics/?msclkid=72dcef5e03f71c47c4a4885fc266c3f8&utm_source=bing&utm_medium=cpc&utm_campaign=Search%20-%20Edu%20Terms%20-%20BMM&utm_term=learn%20phonics&utm_content=Phonics"
-              >
-                Education.com Phonics Resources</a
-              >
-              - Education.com is a paid account that offers several resources
-              for teachers including phonics practice.
-            </li>
-          </ul>
+      <div class="container text-center">
+        <h2>
+          Some of our Essential standards will change every 9 week grading
+          period.
+        </h2>
+        <div class="row gx-5 p-2">
+          <!--PHONICS CARD-->
+          <div class="card text-bg-secondary col m-3" style="width: 10rem">
+            <img
+              src="./images/phonics-card.jpeg"
+              class="card-img-top"
+              alt="phonics vowel cards"
+              width="220px"
+            />
+            <div class="card-body">
+              <div class="accordion accordion-flush" id="accordionFlushPhonics">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Phonics
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushPhonics"
+                  >
+                    <div class="accordion-body">
+                      Phonics is a method of teaching students how to read by
+                      correlating phoneme and graphemes. Having a strong
+                      education in phonics is foundational to a students future.
+                      Without phonics, students will struggle to decode and
+                      encode words.
+                    </div>
+                  </div>
+                </div>
+
+                <a
+                  href="./home-resources.html"
+                  target="_blank"
+                  class="btn btn-dark m-4"
+                  >Phonics Resources</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--PLOT ELEMENTS CARD-->
+          <div class="card text-bg-secondary col m-3" style="width: 10rem">
+            <img
+              src="./images/story-elements-anchor-chart.jpg"
+              alt="Story Elements Anchor Chart"
+              width="220px"
+            />
+            <div class="card-body">
+              <div class="accordion accordion-flush" id="accordionFlushPlot">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      Plot Elements
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushPlot"
+                  >
+                    <div class="accordion-body">
+                      Plot elements refer to fictional stories and all the parts
+                      that make it whole. Each element is a piece of the puzzle
+                      and understanding how these pieces fit together helpes
+                      students grasp the entire story. The elements include:
+                      Characters, setting, problem, sequence, and solution.
+                    </div>
+                  </div>
+                </div>
+
+                <a
+                  href="./home-resources.html"
+                  target="_blank"
+                  class="btn btn-dark m-4"
+                  >Plot Resources</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="tresource-item">
-          <h2 class="edu-au-vic-wa-nt-guides-heading">Plot Elements</h2>
-          <img
-            src="./images/story-elements-anchor-chart.jpg"
-            alt="Story Elements Anchor Chart"
-            width="280px"
-          />
-          <p>
-            Plot elements refer to fictional stories and all the parts that make
-            it whole. Each element is a piece of the puzzle and understanding
-            how these pieces fit together helpes students grasp the entire
-            story. The elements include: Characters, setting, problem, sequence,
-            and solution.
-          </p>
-          <ul>
-            <li>
-              <a href="https://www.education.com/resources/?q=plot%20elements"
-                >Education.com</a
-              >- graphic organizers to assist in learning plot elements
-            </li>
-            <br />
-            <li>
+        <div class="row gx-5 p-2">
+          <!--INFERENCING CARD-->
+          <div class="card text-bg-secondary col m-3" style="width: 10rem">
+            <img
+              src="./images/inference-anchor-chart.jpg"
+              alt="Inference Anchor Chart"
+              width="220px"
+            />
+            <div class="card-body">
+              <div
+                class="accordion accordion-flush"
+                id="accordionFlushInference"
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      Inferencing
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushInference"
+                  >
+                    <div class="accordion-body">
+                      A conclusion or opinion that is reached because of known
+                      facts or evidence. Students should use information in the
+                      text, illustrations, and their background knowledge to
+                      make an inference.
+                    </div>
+                  </div>
+                </div>
+
+                <a
+                  href="./home-resources.html"
+                  target="_blank"
+                  class="btn btn-dark m-4"
+                  >Inference Resources</a
+                >
+              </div>
+            </div>
+          </div>
+          <!--WRITING - EDITING CARD-->
+          <div class="card text-bg-secondary col m-3" style="width: 10rem">
+            <img
+              src="./images/editing-marks-anchor.jpg"
+              alt="Editing Marks Anchor Chart"
+              width="220px"
+            />
+            <div class="card-body">
+              <div class="accordion accordion-flush" id="accordionFlushEditing">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      Writing Process- Editing
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushEditing"
+                  >
+                    <div class="accordion-body">
+                      The editing process can be quite overwhelming for
+                      students. They often write their first draft and want to
+                      be done. It is important to teach students to take the
+                      time to ensure they are producing quality work. So, how do
+                      we teach this skill? First introduce the skill and model
+                      it for students with a mentor text. Teacher should project
+                      or create a written piece and model how to edit it. Next,
+                      start small by providing a prewritten short piece- either
+                      a sentence at a time, or one paragraph- for Students to
+                      practice. After they are able to edit a small text, they
+                      can begin editing their own writing or practice with peer
+                      edits.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <a
-                href="https://www.splashlearn.com/ela/story-elements-worksheets-for-2nd-graders"
-                >Splash Learn</a
-              >- Graphic organizers for Plot elements
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="tresource-container">
-        <div class="tresource-item">
-          <h2 class="edu-au-vic-wa-nt-guides-heading">Inferencing</h2>
-          <img
-            src="./images/inference-anchor-chart.jpg"
-            alt="Inference Anchor Chart"
-            width="280px"
-          />
-          <p>
-            An inference is an educated guess. It can be defined as the process
-            of drawing a conclusion based on the available evidence plus
-            previous knowledge and experience. Click
-            <a href="https://literacyideas.com/teaching-inference/">here</a> to
-            learn more about what inferencing is and how to teach it.
-          </p>
-          <ul>
-            <li>
-              <a href="https://www.youtube.com/watch?v=z-Vu_CqyEpo"
-                >What's in the bag?</a
+                href="./home-resources.html"
+                target="_blank"
+                class="btn btn-dark m-4"
+                >Writing Resources</a
               >
-              A fun lesson to introduce inferencing to students.
-            </li>
-            <li>
-              <a
-                href="https://www.splashlearn.com/ela/inference-worksheets-for-2nd-graders"
-                >Splash Learn</a
-              >
-              offers several worksheets that assist in learning how to make
-              inferences.
-            </li>
-            <br />
-            <li>
-              <a href="https://www.superteacherworksheets.com/inference.html"
-                >Super Teacher Worksheets</a
-              >
-              offers inferencing worksheets that extend your lessons.
-            </li>
-            <br />
-            <li>
-              <a
-                href="https://www.education.com/lesson-plan/el-support-lesson-map-a-story/"
-                >Free Inference Story Map Lesson Plan</a
-              >
-              Try out This free lesson plan that will help you teach
-              inferencing.
-            </li>
-          </ul>
-        </div>
-        <div class="tresource-item">
-          <h2 class="edu-au-vic-wa-nt-guides-heading">Writing- Editing</h2>
-          <img
-            src="./images/editing-marks-anchor.jpg"
-            alt="Editing Marks Anchor Chart"
-            width="280px"
-          />
-          <p>
-            The editing process can be quite overwhelming for students. They
-            often write their first draft and want to be done. It is important
-            to teach students to take the time to ensure they are producing
-            quality work. So, how do we teach this skill? First introduce the
-            skill and model it for students with a mentor text. Teacher should
-            project or create a written piece and model how to edit it. Next,
-            start small by providing a prewritten short piece- either a sentence
-            at a time, or one paragraph- for Students to practice. After they
-            are able to edit a small text, they can begin editing their own
-            writing or practice with peer edits.
-          </p>
-          <ul>
-            <li>
-              <a href="https://www.youtube.com/watch?v=izENvJJY6Hg"
-                >Editing for Kids</a
-              >
-              Show this video to your class to reach your visual learners.
-            </li>
-            <li>
-              <a href="https://www.education.com/resources/?q=writing%20editing"
-                >Editing Practice Worksheets</a
-              >- Prewritten texts and peer editing checklists.
-            </li>
-            <br />
-            <li>
-              <a href="https://www.superteacherworksheets.com/proofreading.html"
-                >More Practice Worksheets</a
-              >
-              -Worksheets to practice identifying and correcting errors.
-            </li>
-            <br />
-            <li>
-              <a
-                href="https://www.teacherspayteachers.com/browse?order=Price-Asc&search=narrative%20writing%20topics&st=747201ff50b9cac320c197c0ac9e6701"
-                >Narrative Writing Topics</a
-              >- Teachers Pay Teachers offers several templates and topic lists
-              for narrative writing.
-            </li>
-            <br />
-            <li>
-              <a
-                href="https://www.teacherspayteachers.com/Product/Writing-Process-Edit-Conference-Forms-2099459?st=747201ff50b9cac320c197c0ac9e6701"
-                >Editing Conference Form</a
-              >- Checklist to ensure student has met all editing goals for their
-              independent writing.
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -242,5 +326,10 @@
         </li>
       </ul>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
