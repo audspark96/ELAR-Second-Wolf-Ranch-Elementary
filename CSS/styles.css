@@ -27,7 +27,10 @@ Hand Guides- Writing Lines
 */
 
 /*Classes and ID List */
-
+.accordion {
+  margin: 0 auto;
+  padding: 10px;
+}
 /*Headings font */
 .blue {
   color: rgb(6, 162, 171);
@@ -241,6 +244,9 @@ img {
   padding: 4px;
   margin: 4px;
 }
+.enlarge:hover {
+  transform: scale(1.5);
+}
 
 main {
   margin: 0 auto;
@@ -262,16 +268,32 @@ ul {
 /* MEDIA QUERIES */
 
 @media (max-width: 800px) {
-  .form-container {
-    flex-flow: column wrap;
-    width: 80%;
+  h1 {
     font-size: 12px;
-    margin: 0 auto;
   }
+  h2 {
+    font-size: 12px;
+  }
+  .column-switch {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .column-container {
+    width: 80%;
+    margin: 10px 10px;
+    padding: 5px;
+  }
+
   .home-container {
     display: block;
     font-size: 12px;
-    margin: 0 auto;
+    margin: auto 5px;
+    width: 85%;
+    font-size: 12px;
+    padding: 5px;
+    display: flex;
+    flex-flow: column wrap;
   }
   .large {
     margin: 5px 10px;
@@ -279,12 +301,13 @@ ul {
   }
   .main-container {
     flex-flow: column wrap;
-    width: 80%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin: 5px;
+    font-size: 10px;
+    width: 90%;
   }
   .main-item {
-    font-size: 14px;
+    font-size: 12px;
     width: 90%;
   }
   #navbarNavDarkDropdown {
@@ -301,9 +324,10 @@ ul {
 
   h1 {
     font-size: 2rem;
+    padding: 5px 0px;
   }
   img {
-    width: 60%;
+    width: 50%;
     display: block;
     margin: 0 auto;
   }
